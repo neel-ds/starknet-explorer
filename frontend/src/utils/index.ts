@@ -1,3 +1,3 @@
-import { Tabs } from "./constants";
+import { tabs, transactionHeaders } from "./constants";
 
-export { Tabs };
+export { tabs, transactionHeaders };

@@ -1,4 +1,4 @@
-export const Tabs = [
+export const tabs = [
   "All",
   "declare",
   "deploy",
@@ -6,3 +6,5 @@ export const Tabs = [
   "invoke",
   "l1_handler",
 ];
+
+export const transactionHeaders = ["status", "hash", "type", "block", "age"];
