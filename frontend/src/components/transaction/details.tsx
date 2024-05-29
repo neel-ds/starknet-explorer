@@ -1,5 +1,5 @@
 import { IoCopyOutline } from "react-icons/io5";
-import DataRow from "../shared/data";
+import { DataRow } from "@/components/shared";
 
 export default function Details() {
   return (

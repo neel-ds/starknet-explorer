@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { IoCopyOutline } from "react-icons/io5";
 import { TbStackBackward } from "react-icons/tb";
-import Badge from "../shared/badge";
+import { Badge } from "@/components/shared";
+
 
 export default function Transaction() {
   return (

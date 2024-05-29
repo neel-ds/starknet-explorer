@@ -1,8 +1,6 @@
 import { IoCopyOutline } from "react-icons/io5";
-import DataRow from "../shared/data";
-import Badge from "../shared/badge";
+import { Badge, Tab, DataRow } from "@/components/shared";
 import { calldataTabs, developerInfoTabs } from "@/utils";
-import Tab from "../shared/tab";
 import { useState } from "react";
 
 export default function DeveloperInfo() {

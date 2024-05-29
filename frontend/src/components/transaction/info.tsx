@@ -1,5 +1,5 @@
 import { IoCopyOutline } from "react-icons/io5";
-import Badge from "../shared/badge";
+import { Badge } from "@/components/shared";
 import { FaCheck } from "react-icons/fa";
 import { BsQuestionCircle } from "react-icons/bs";
 
