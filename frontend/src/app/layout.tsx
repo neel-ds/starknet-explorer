@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Transactions | Voyager",
   description: "Starknet Blockchain Explorer",
-  icons: "/voyager.svg"
+  icons: "/voyager.svg",
 };
 
 export default function RootLayout({

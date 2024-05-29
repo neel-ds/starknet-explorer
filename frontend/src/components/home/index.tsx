@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Tab from "./tab";
+import Tab from "../shared/tab";
 import { tabs, transactionHeaders } from "@/utils";
 import Transaction from "./transaction";
 

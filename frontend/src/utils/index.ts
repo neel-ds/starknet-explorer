@@ -1,3 +1,17 @@
-import { tabs, transactionHeaders } from "./constants";
+import {
+  tabs,
+  transactionHeaders,
+  transactionTabs,
+  developerInfoTabs,
+  calldataTabs,
+  eventTabs,
+} from "./constants";
 
-export { tabs, transactionHeaders };
+export {
+  tabs,
+  transactionHeaders,
+  transactionTabs,
+  developerInfoTabs,
+  calldataTabs,
+  eventTabs,
+};

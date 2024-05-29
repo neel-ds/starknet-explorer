@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { IoCopyOutline } from "react-icons/io5";
 import { TbStackBackward } from "react-icons/tb";
+import Badge from "../shared/badge";
 
 export default function Transaction() {
   return (
@@ -14,9 +15,7 @@ export default function Transaction() {
           <IoCopyOutline className="text-neutral-500" />
         </button>
       </div>
-      <span className="w-fit uppercase px-3 py-0.5 text-sm text-lime-200 bg-lime-400/10 border border-lime-600 rounded">
-        declare
-      </span>
+      <Badge label="declare" color="lime" />
       <div className="flex flex-row items-center gap-3">
         <Link href={"/tx/"} className="text-indigo-300">
           428593

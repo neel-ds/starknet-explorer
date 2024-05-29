@@ -1,3 +1,4 @@
 import Transactions from "./home";
+import TransactionDetails from "./transaction";
 
-export { Transactions };
+export { Transactions, TransactionDetails };
