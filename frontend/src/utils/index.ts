@@ -7,6 +7,8 @@ import {
   eventTabs,
 } from "./constants";
 
+import { formatAddress } from "./helper";
+
 export {
   tabs,
   transactionHeaders,
@@ -14,4 +16,5 @@ export {
   developerInfoTabs,
   calldataTabs,
   eventTabs,
+  formatAddress,
 };
